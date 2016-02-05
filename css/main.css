@@ -3,48 +3,146 @@
 	width: 700px;
 	margin: auto;
 }
-
-#navigator li{
-	list-style-type: none;
-	float:left;
-	padding-top: 5px;
-	margin: 0px 0px 0px 65px;
+/* Ingresa estilos del menu */
+li{
+	display: inline-block;
+	padding-right: 40px;
+	border-right: 1px solid black;
+	margin-left: 24px;
+	margin-right: 5px;
 	font-size: 15px;
 	font-family: Arial;
-	
-}
-
-hr{
-	border: 1px solid black;
-	width: 100%;
-	float: left;
 }
 
 img{
 	position: relative;
 	width: 700px;
-	margin: 20px 10px;
+	margin: 20px 0px;
 }
 
 p{
 	text-align: center;
-	padding: 0%;
-
+	padding: 0% 10%;
 	font-family: Arial;
 	font-size: 15px;
-	margin-top: 20px;
+}
+/* Propiedades de las lineas hr */
+hr{
+	border: 1px solid black;
 }
 
 .linea{
-	border: 1px solid black;
-	width: 3%;
-	float: left;
+	
+	width: 7%;
 	margin:0% 50%;
 }
 
 .lineados{
-	border: 1px solid black;
-	width: 12%;
-	float: left;
-	margin: 0% 0%
+	
+	width: 6%;
+	position: absolute;
+	margin: -10px 0px;
 }
+/* Estilos de las fotos Coders */
+.fotos{
+	width: 100%;
+	height: 100%;
+}
+
+/* Estilos de los textos de fotos Coders */
+.alinear{
+	position: relative;
+ 	display: inline-block;
+ 	margin:-9px 9.5px;
+ }
+
+ .alineardos{
+	position: relative;
+ 	display: inline-block;
+ 	margin:-20px 9.5px;
+ }
+
+.text_encima{
+	position: absolute;
+	font-size: 13px;
+	z-index:1;
+	top:80%;
+	left: 45%;
+	color: white;
+	font-family: Arial;
+}
+
+/* Estilos del archivo coder-detail.html*/
+.border{
+	border: 1px solid black;
+}
+
+.coder{
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+	left: 40%;
+	margin-top: 5%;
+}
+
+h1{
+	text-align: center;
+	margin-top: -10px;
+
+}
+
+h2{
+	padding-left: 5%;
+}
+/* Estilos de parrafos Tipos de códigos */
+.caja_uno{
+	background: gray;
+	width:450px;
+	height: 15px;
+}
+
+.caja_dos{
+	background: gray;
+	width:300px;
+	height: 15px;
+}
+
+.caja_tres{
+	background: gray;
+	width:150px;
+	height: 15px;
+	
+}
+
+.codigos{
+	font-size: 15px;
+	font-family: Arial;
+	text-align: left;
+	color: white;
+	padding:10px;
+	margin-left: 55px;
+}
+/* Estilos de Fotos de hobbies */
+
+.images{
+	position: relative;
+ 	display: inline-block;
+ 	margin:17px;
+ }
+
+.fotos_a{
+	margin-left: 40px;
+	margin-top: -35px;
+}
+
+.fotos_b{
+	margin-left: 40px;
+	margin-top: -40px;
+}
+
+.fotosize{
+	width: 170px;
+	height: 125px;
+}
+
